@@ -1,0 +1,105 @@
+.title {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    border-radius: 5px;
+    background-color: hsl(0, 79%, 66%);
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: hsl(0, 79%, 46%);
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li img {
+    margin-right: auto;
+}
+
+body {
+    margin: 0px;
+    background-image: url(backgroubnd2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main {
+    margin-left: 10px;
+    color: white;
+}
+
+#img-div {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+
+}
+
+#img-caption {
+    margin-top: 0px;
+}
+
+#tribute-link ul {
+    list-style-type: none;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+#tribute-link a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+#tribute-link a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+
+#tribute-link li {
+    float: right;
+}
+
+#tribute-link li img {
+    margin-right: auto;
+}
+
+.titlesandawards {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.Achievements {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
